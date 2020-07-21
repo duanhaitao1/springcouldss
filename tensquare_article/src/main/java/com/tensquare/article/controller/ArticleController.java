@@ -25,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class ArticleController {
     @Autowired
     private ArticleService articleService;
+    //kdkkdkkd
     @Autowired
     private RedisTemplate redisTemplate;
 
