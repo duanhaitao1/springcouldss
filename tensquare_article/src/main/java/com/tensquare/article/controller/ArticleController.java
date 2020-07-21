@@ -46,7 +46,7 @@ public class ArticleController {
         articleService.add(article);
         return new Result(true,StatusCode.OK,"增加成功");
     }
-    //修改
+    //修改pppppp
     @RequestMapping(value="/{id}",method= RequestMethod.PUT)
     public Result update(@RequestBody Article article,@PathVariable String id){
         article.setId(id);
